@@ -29,7 +29,7 @@ app.use('/photos', prodPhotos);
 app.use(function(req, res, next) {
   var err = new Error('Not Found');
   err.status = 404;
-  res.status(404).json({
+  res.status(200).json({
     ResponseStatus: "Error",
     ResponseMessage: "Resource Not Found"
   });
