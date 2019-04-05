@@ -1,0 +1,25 @@
+{
+  "name": "csci571-hw8-node",
+  "version": "1.0.0",
+  "description": "USC CSCI 571 | Spring 19 | HW 8 | sparab@usc.edu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sarvesh Parab",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "latest",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
+    "debug": "~2.6.9",
+    "dotenv": "^7.0.0",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "sync-request": "^6.0.0",
+    "urlencode": "^1.1.0"
+  }
+}
